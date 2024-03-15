@@ -6,6 +6,7 @@ header {
   align-items: center;
   padding: 15px; 
   border-bottom: 1px solid;
+  
   }
   .name {
   font-size: 24px;
@@ -38,7 +39,8 @@ header {
   }
 /*Header CSS*/
 footer{
-  text-align: center;
-  margin-top: 225px;
+  text-align: left;
+  margin-top: 60px;
+  padding-left: 10xp;
 }
 
