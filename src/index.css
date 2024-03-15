@@ -1,9 +1,11 @@
 
 
-
+/*Header CSS*/
 header {
   display: flex;
-  align-items: center; /* Vertically center */
+  align-items: center;
+  padding: 15px; 
+  border-bottom: 1px solid;
   }
   .name {
   font-size: 24px;
@@ -18,7 +20,25 @@ header {
   nav li {
   margin-left: 20px;
   }
+  .card{
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+  }
+  .card .img{
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+/*Header CSS*/
 footer{
   text-align: center;
-  margin-top: 570px;
+  margin-top: 225px;
 }
+
